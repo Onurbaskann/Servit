@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script language="JavaScript" type="text/JavaScript" src="login.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="top-container">
+
+    </div>
+    <div id="container">
+
+        <h2>Giriş</h2>
+
+        <form action="/action_page.php">
+
+            <div id="login-container">
+                <p>
+                <label for="uname"><b>Ad</b></label>
+                <input type="text" placeholder="Adınızı giriniz" name="uname" required>
+                </p>
+                <p>
+                <label for="psw"><b>Şifre</b></label>
+                <input type="password" placeholder="Şifrenizi giriniz" name="psw" required>
+                </p>
+                <div id="btn-check-left">
+                <p>
+                    <input type="button" value="Giriş" onClick="Login(this.form);">
+                </p>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Hatırla Beni
+                </label>
+                </div>
+                <div id="forgot-right"><span class="psw"><a href="#">Şifremi Unuttum</a></span></div>
+
+        </form>
+    </div>
+    </div>
+</body>
+
+</html>
